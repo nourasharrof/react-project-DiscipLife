@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  scroll-behavior: smooth;
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+}
+:root {
+  --primary-color: #00ff00;
+  --secondary_color: #25671e;
+  --background_color: #94ec89;
+  --white: #ffffff;
+}
+
+body {
+  background: linear-gradient(var(--second_color));
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+
+  height: 100vh;
+  width: 100%;
+}
+a {
+  transition: 0.3s;
+}
+
+h3:hover {
+  transform: rotate(5deg);
+}
+
+/* background-color: var(--white);
+box-shadow: 0px 2px 20px 5px #97B1BF;
+color:#000;
+cursor: pointer; */
