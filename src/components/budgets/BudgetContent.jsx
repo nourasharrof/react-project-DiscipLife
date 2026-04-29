@@ -87,7 +87,7 @@ export default function BudgetContent() {
         map[name] = {
           name,
           spent: 0,
-          total: 1000,
+          total: totalIncome,
         };
       }
 
@@ -189,7 +189,7 @@ export default function BudgetContent() {
             </div>
 
             <div className="progress-header">
-              <span>Total Expense vs Budget</span>
+              <span>Total Expense vs Salary</span>
 
               <span>
                 ${totalExpenses} / ${totalIncome}
@@ -214,7 +214,7 @@ export default function BudgetContent() {
           </div>
 
           <div className="section">
-            <h2 className="head-category">Expense vs Budget</h2>
+            <h2 className="head-category">Categories Expense vs Salary</h2>
 
             {groupedCategories.map((cat, i) => {
               const percent = progress(cat.spent, cat.total);
