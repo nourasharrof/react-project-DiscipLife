@@ -60,7 +60,8 @@ export const Styles = styled.div`
       width: 50px;
       height: 30px;
       border-radius: 4px;
-      background: #27374d;
+      // background: #27374d;
+      background: #00ff00;
       color: #fff;
       position: absolute;
       z-index: 10;

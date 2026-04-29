@@ -9,7 +9,7 @@ export const Styles = styled.div`
   }
   @media (max-width: 500px) {
     .content {
-      margin-left: 2rem;
+      margin-left: 0.5rem;
     }
   }
 `;
